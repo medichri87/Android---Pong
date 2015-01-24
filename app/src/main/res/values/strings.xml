@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Application1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="start">Start Game</string>
+    <string name="instructions">Instructions</string>
+    <string name="back">Back</string>
+
+    <string name="settings">Settings</string>
+
+    <string name="settings_difficulty">Difficulty</string>
+    <string name="settings_easy">Easy</string>
+    <string name="settings_medium">Medium</string>
+    <string name="settings_hard">Hard</string>
+
+    <string name="settings_ball_speed">Ball Speed</string>
+    <string name="settings_ball_slow">Slow(0.8x)</string>
+    <string name="settings_ball_moderate">Moderate(1.4x)</string>
+    <string name="settings_ball_fast">Fast(2x)</string>
+
+    <string name="settings_num_to_win">Game Over</string>
+    <string name="settings_num_to_win_5">First to 5</string>
+    <string name="settings_num_to_win_10">First to 10</string>
+    <string name="settings_num_to_win_25">First to 25</string>
+
+    <string name="exit">Exit</string>
+    <string name="title">Ping Pong</string>
+    <string name="title_u"><u>Ping Pong</u></string>
+    <string name="credits">Developed by: Chris Medina</string>
+    <string name="date">Date: 1–7–15</string>
+    <string name="instructions_detail">\tHow to play: The purpose of Ping Pong is to get the ball past the
+        opposition\'s paddle. Once this has been done the necessary number of times,
+        as determined by the chosen difficulty settings, you will win the game. If the A.I. reaches
+        the required number first, it wins.
+     \n\n\n\tFor more information on Ping Pong, also known as Table Tennis, see:\nhttp://en.wikipedia.org/wiki/Table_tennis
+    </string>
+
+
+</resources>

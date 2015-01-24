@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_top"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="5sp"
+    >
+
+    <TextView
+        android:id="@+id/txt_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="25sp"
+        android:text="@string/settings"
+        android:textColor="#FF0000"
+        android:textSize="48sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/txt_ball_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/settings_ball_speed"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txt_settings"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup_ball_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_ball_speed"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="25sp"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/settings_ball_slow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="true"
+            android:text="@string/settings_ball_slow"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:saveEnabled="true"
+            />
+
+        <RadioButton
+            android:id="@+id/settings_ball_moderate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:clickable="true"
+            android:text="@string/settings_ball_moderate"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:saveEnabled="true"
+            />
+
+        <RadioButton
+            android:id="@+id/settings_ball_fast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="true"
+            android:text="@string/settings_ball_fast"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:saveEnabled="true"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txt_num_to_win"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radiogroup_ball_speed"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/settings_num_to_win"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup_number_to_game_over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_num_to_win"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="25sp"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/settings_gameover_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="true"
+            android:text="@string/settings_num_to_win_5"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:saveEnabled="true"
+            />
+
+        <RadioButton
+            android:id="@+id/settings_gameover_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:clickable="true"
+            android:text="@string/settings_num_to_win_10"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:saveEnabled="true"
+            />
+
+        <RadioButton
+            android:id="@+id/settings_gameover_25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="true"
+            android:text="@string/settings_num_to_win_25"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:saveEnabled="true"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_settings_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5sp"
+        android:paddingBottom="10sp"
+        android:text="@string/back"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        />
+
+</RelativeLayout>
